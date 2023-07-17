@@ -143,3 +143,78 @@ li {
     border: 3px solid #3882f6;
     border-radius: 10px;
 }
+
+.sect {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    color: #1f2937;
+    font-style: italic;
+    text-align: justify;
+}
+
+.sect strong {
+    font-style: normal;
+}
+
+.quote {
+    padding: 60px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.strong {
+    align-self: end;
+}
+
+.signup {
+    width: 100%;
+    height: 40vh;
+    padding: 55px 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.hoo {
+    background-color: #3882f6;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 30px 40px;
+    color: #fff;
+}
+
+.hoo button {
+    border: 2px solid #fff;
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+footer p {
+    width: 70%;
+    margin: 0 auto;
+}
